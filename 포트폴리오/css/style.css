@@ -1,0 +1,88 @@
+*{ margin : 0; padding : 0}
+ul, li { list-style: none; }
+a { color: black; text-decoration: none; }
+#header {
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 50px;
+	border : none;
+}
+#nav {
+	height: 40px;
+	background-color:black;
+	line-height: 40px;
+	justify-content : space-between;
+	font-size : 20px;
+}
+#nav li {
+	float : left;
+	padding : 0 30px;
+}
+#input li{
+	float:right;
+}
+#nav ul {
+	list-style:none;
+}
+#nav ul li a{
+	color : white;
+}
+#footer {
+		position : absolute;
+		bottom:0px;
+		left:385px;
+}
+#광고 {
+	width : 100%;
+	height : 120px;
+	float : left;
+}
+#img{
+	height : 450px;
+	position : absolute;
+	left : 50px;
+
+}
+#buy{
+	position : absolute;
+	bottom : 380px;
+	left : 110px;
+}
+#img1{
+	height : 450px;
+	position : relative;
+	left : 360px;
+}
+#buy2{
+	position : relative;
+	left : 420px;
+	bottom : 40px;
+}
+#img2{
+	height : 450px;
+	position : fixed;
+	left : 670px;
+	top : 150px;
+}
+#buy3{
+	position : relative;
+	left :740px;
+	bottom : 100px;
+}
+
+#btn {
+	position : absolute;
+	width : 40%;
+	height : 900px;
+}
+
+.header{
+		width : 100%;
+		height : 120px;
+		border:none;
+}
+
+	
